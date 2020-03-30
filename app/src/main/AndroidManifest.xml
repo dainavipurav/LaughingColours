@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.trycatch.laughingcolours">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.trycatch.laughingcolours.LaughterApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo1111"
+        android:label="Laughing Colors"
+        android:roundIcon="@mipmap/ic_logo1111_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.trycatch.laughingcolours.Activities.FavoriteTextFullScreen"></activity>
+        <activity android:name="com.trycatch.laughingcolours.Activities.FavoriteImageFullScreen" />
+        <activity android:name="com.trycatch.laughingcolours.Activities.FavoriteTabs" />
+        <activity android:name="com.trycatch.laughingcolours.Activities.Try" />
+        <activity android:name="com.trycatch.laughingcolours.Activities.TextFullScreen" />
+        <activity android:name="com.trycatch.laughingcolours.Activities.ImageFullScreen" />
+        <activity android:name="com.trycatch.laughingcolours.Activities.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.trycatch.laughingcolours.Activities.CategoryActivity" />
+        <activity
+            android:name="com.trycatch.laughingcolours.Fragments.MainTab"
+            android:label="@string/title_activity_main_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

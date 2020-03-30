@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lightRed">#cc0000</color>
+    <color name="darkRed">#8B0000</color>
+    <color name="YellowGreen">#9acd32</color>
+    <color name="yellow">#ffff00</color>
+    <color name="lightYellow">#ffff80</color>
+    <color name="lightYellow2">#FFFF99</color>
+    <color name="lightYellow3">#FFFF66</color>
+    <color name="violet">#ee82ee</color>
+    <color name="Blue">#63b8ff</color>
+    <color name="Green">#00cd66</color>
+    <color name="Gray">#708090</color>
+    <color name="SkyBlue">#87ceff</color>
+    <color name="red">#ee0000</color>
+    <color name="pink">#ffc0cb</color>
+    <color name="Peach">#ffdab9</color>
+    <color name="DarkPink">#ff82ab</color>
+    <color name="orchid">#ff83fa</color>
+    <color name="Orange">#ffa500</color>
+    <color name="NavyBlue">#000080</color>
+    <color name="MintCream">#f5fffa</color>
+    <color name="Purple">#ab82ff</color>
+    <color name="Maroon">#b03060</color>
+    <color name="LimeGreen">#32cd32</color>
+    <color name="brown">#cb3434	</color>
+    <color name="lightBrown">#d55d5d</color>
+    <color name="brown2">#A52A2A</color>
+    <color name="BlanchedAlmond">#ffebcd</color>
+    <color name="Black">#000000</color>
+    <color name="White">#ffffff</color>
+    <color name="OffWhite">#f8f8ff</color>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:visible="true"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/share"
+        android:visible="true"
+        android:icon="@drawable/ic_share"
+        android:title="Share"/>
+
+    <item
+        android:id="@+id/download"
+        android:visible="true"
+        android:icon="@drawable/ic_download"
+        android:title="Download"/>
+
+    <item
+        android:id="@+id/favourite"
+        android:visible="true"
+        android:icon="@drawable/ic_fav_selected"
+        android:title="Favorite"/>
+
+
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tool_bar"
+    android:background="@color/lightBrown"
+    android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:elevation="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dash_head"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:background="@color/lightBrown">
+
+        <ImageView
+            android:id="@+id/dash_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/logo"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/dash_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/laughing_colors"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>
